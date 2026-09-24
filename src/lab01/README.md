@@ -1,7 +1,8 @@
 Задание 1
 <img width="930" height="176" alt="image" src="https://github.com/user-attachments/assets/5ab4d061-fabb-4530-b810-b7134e6379f2" />
 Простенький input, вывод через f строку.
-<img width="576" height="86" alt="image" src="https://github.com/user-attachments/assets/40c8f4a3-1f59-46f7-9cf1-dc20dd1cb9df" />
+<img width="576" height="86" alt="image" src="https://github.com/user-attachments/assets/40c8f4a3-1f59-46f7-9cf1-dc20dd1cb9df" /> 
+
 ----------------------------------------------------------------------------------------------------------------
 Задание 2
 <img width="836" height="286" alt="image" src="https://github.com/user-attachments/assets/1ac28f95-d8f3-4526-9cfd-d70cd47fbbd1" />
@@ -19,6 +20,7 @@ Input, использование данных формул, вывод чере
 <img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/8ab5cd95-9f55-4e49-ad30-54748a9f6ab4" />
 Часы считаются через деление без остатка на 60, минуты через нахождение остатка деления на 60. Вывод через f строку, 02d добавляет нули после точки, если минут меньше 10.
 <img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/ca22df89-61b5-4996-b8d5-f70bfcb6ba11" />
+
 ----------------------------------------------------------------------------------------------------------------
 Задание 5
 <img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/97fcfdfd-50d9-44e9-a9ad-9cf117134b70" />
