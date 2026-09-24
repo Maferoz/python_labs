@@ -17,6 +17,7 @@
 
 <img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/61c9d1a1-2c4a-446e-b659-2cc0b6f25876" />
 
+
 ----------------------------------------------------------------------------------------------------------------
 Задание 3
 <img width="722" height="344" alt="image" src="https://github.com/user-attachments/assets/b58779d5-c7b9-4c05-af42-8ec03fc52824" />
@@ -27,6 +28,7 @@ Input, использование данных формул, вывод чере
 
 <img width="306" height="200" alt="image" src="https://github.com/user-attachments/assets/4d78a29d-82ac-4aab-99ff-d96bbc1c668b" />
 
+
 ----------------------------------------------------------------------------------------------------------------
 Задание 4
 <img width="504" height="200" alt="image" src="https://github.com/user-attachments/assets/8ab5cd95-9f55-4e49-ad30-54748a9f6ab4" />
@@ -36,6 +38,7 @@ Input, использование данных формул, вывод чере
 
 
 <img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/ca22df89-61b5-4996-b8d5-f70bfcb6ba11" />
+
 
 ----------------------------------------------------------------------------------------------------------------
 Задание 5
