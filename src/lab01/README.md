@@ -6,7 +6,8 @@
 Задание 2
 <img width="836" height="286" alt="image" src="https://github.com/user-attachments/assets/1ac28f95-d8f3-4526-9cfd-d70cd47fbbd1" />
 Замена возможной запятой в input с помощью replace. Подсчет срзнач и сумм. Вывод через f строку.
-<img width="836" height="286" alt="image" src="https://github.com/user-attachments/assets/7f204142-382e-4633-b181-737a11b9c69b" />
+<img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/61c9d1a1-2c4a-446e-b659-2cc0b6f25876" />
+
 
 Задание 3
 <img width="722" height="344" alt="image" src="https://github.com/user-attachments/assets/c23807bf-d5b3-4358-ac25-c119b26967cd" />
