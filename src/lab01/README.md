@@ -19,7 +19,7 @@
 
 ----------------------------------------------------------------------------------------------------------------
 Задание 3
-<img width="722" height="344" alt="image" src="https://github.com/user-attachments/assets/c23807bf-d5b3-4358-ac25-c119b26967cd" />
+<img width="722" height="344" alt="image" src="https://github.com/user-attachments/assets/b58779d5-c7b9-4c05-af42-8ec03fc52824" />
 
 
 Input, использование данных формул, вывод через f строку с обязательными 2-мя символами после точки.
