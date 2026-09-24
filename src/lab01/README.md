@@ -59,5 +59,3 @@
 
 **Результат выполнения:**  
 <img width="380" height="86" alt="image" src="https://github.com/user-attachments/assets/8838a148-a1a5-4fa5-b739-6111a74ca68d" />
-
-```
