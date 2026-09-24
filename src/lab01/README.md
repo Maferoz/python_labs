@@ -25,11 +25,11 @@
 Input, использование данных формул, вывод через f строку с обязательными 2-мя символами после точки.
 
 
-<img width="306" height="94" alt="image" src="https://github.com/user-attachments/assets/4d78a29d-82ac-4aab-99ff-d96bbc1c668b" />
+<img width="306" height="200" alt="image" src="https://github.com/user-attachments/assets/4d78a29d-82ac-4aab-99ff-d96bbc1c668b" />
 
 ----------------------------------------------------------------------------------------------------------------
 Задание 4
-<img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/8ab5cd95-9f55-4e49-ad30-54748a9f6ab4" />
+<img width="504" height="200" alt="image" src="https://github.com/user-attachments/assets/8ab5cd95-9f55-4e49-ad30-54748a9f6ab4" />
 
 
 Часы считаются через деление без остатка на 60, минуты через нахождение остатка деления на 60. Вывод через f строку, 02d добавляет нули после точки, если минут меньше 10.
@@ -39,7 +39,7 @@ Input, использование данных формул, вывод чере
 
 ----------------------------------------------------------------------------------------------------------------
 Задание 5
-<img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/97fcfdfd-50d9-44e9-a9ad-9cf117134b70" />
+<img width="504" height="200" alt="image" src="https://github.com/user-attachments/assets/97fcfdfd-50d9-44e9-a9ad-9cf117134b70" />
 
 
 Функция isupper() проверяет, является ли переменная заглавной буквой, возвращает bool. Функция len() считает кол-во символов. 
