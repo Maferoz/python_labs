@@ -22,7 +22,8 @@
 <img width="836" height="286" alt="image" src="https://github.com/user-attachments/assets/1ac28f95-d8f3-4526-9cfd-d70cd47fbbd1" />
 
 **Результат выполнения:**  
-<img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/61c9d1a1-2c4a-446e-b659-2cc0b6f25876" />
+<img width="306" height="94" alt="image" src="https://github.com/user-attachments/assets/be7790b8-5c16-44f7-9eef-5468302e0552" />
+
 
 ---
 
@@ -34,7 +35,8 @@
 <img width="722" height="344" alt="image" src="https://github.com/user-attachments/assets/b58779d5-c7b9-4c05-af42-8ec03fc52824" />
 
 **Результат выполнения:**  
-<img width="306" height="200" alt="image" src="https://github.com/user-attachments/assets/4d78a29d-82ac-4aab-99ff-d96bbc1c668b" />
+<img width="398" height="166" alt="image" src="https://github.com/user-attachments/assets/e8bc9fba-4d89-4661-ab32-e0605737c32d" />
+
 
 ---
 
@@ -46,7 +48,8 @@
 <img width="504" height="200" alt="image" src="https://github.com/user-attachments/assets/8ab5cd95-9f55-4e49-ad30-54748a9f6ab4" />
 
 **Результат выполнения:**  
-<img width="504" height="144" alt="image" src="https://github.com/user-attachments/assets/ca22df89-61b5-4996-b8d5-f70bfcb6ba11" />
+<img width="228" height="72" alt="image" src="https://github.com/user-attachments/assets/97ca8a8d-6990-4603-99ea-6c13c60722a9" />
+
 
 ---
 
@@ -55,7 +58,9 @@
 > **Описание решения:** Функция isupper() проверяет, является ли переменная заглавной буквой, возвращает bool. Функция len() считает кол-во символов. 
 
 **Код программы:**  
-<img width="504" height="200" alt="image" src="https://github.com/user-attachments/assets/97fcfdfd-50d9-44e9-a9ad-9cf117134b70" />
+<img width="670" height="270" alt="image" src="https://github.com/user-attachments/assets/9a5523e1-7abe-4619-8f41-07eddfacbb84" />
+
 
 **Результат выполнения:**  
-<img width="380" height="86" alt="image" src="https://github.com/user-attachments/assets/8838a148-a1a5-4fa5-b739-6111a74ca68d" />
+<img width="380" height="86" alt="image" src="https://github.com/user-attachments/assets/ec596eb8-e76b-4b99-90b4-77af15a1e278" />
+
