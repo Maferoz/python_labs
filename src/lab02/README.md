@@ -1,4 +1,4 @@
-<img width="1116" height="866" alt="image" src="https://github.com/user-attachments/assets/6f0aa927-26d1-435c-8bfd-0b75d6bad7e8" />
+
 ---
 
 ## Задание 1
