@@ -20,7 +20,6 @@ x2 = [[1],[2],[3]]
 x3 = [[1,2],[3,4]]
 x4 = []
 x5 = [[1,2],[3]]
-#print(transpose(x5))
 
 def row_sums(mat):
     for row in mat:
@@ -35,12 +34,6 @@ def row_sums(mat):
             sum += i
         new_mat.append(sum)
     return new_mat
-
-x1 = [[1,2,3],[4,5,6]]
-x2 = [[-1,1],[10,-10]]
-x3 = [[0,0],[0,0]]
-x4 = [[1,2],[3]]
-#print(row_sums(x4))
 
 def col_sums(mat):
     for row in mat:
@@ -60,4 +53,7 @@ x1 = [[1,2,3],[4,5,6]]
 x2 = [[-1,1],[10,-10]]
 x3 = [[0,0],[0,0]]
 x4 = [[1,2],[3]]
+print(col_sums(x1))
+print(col_sums(x2))
+print(col_sums(x3))
 print(col_sums(x4))
