@@ -1,4 +1,4 @@
-name = input("ФИО: ")
+name = " ".join(input("ФИО: ").split())
 initials = ""
 for i in name.split():
     initials += i[0].upper()
