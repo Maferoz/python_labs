@@ -58,7 +58,8 @@
 > **Описание решения:** Функция isupper() проверяет, является ли переменная заглавной буквой, возвращает bool. Функция len() считает кол-во символов. 
 
 **Код программы:**  
-<img width="670" height="270" alt="image" src="https://github.com/user-attachments/assets/9a5523e1-7abe-4619-8f41-07eddfacbb84" />
+<img width="724" height="218" alt="image" src="https://github.com/user-attachments/assets/32b00322-67f9-4664-a5f8-8732e1c1d4b9" />
+
 
 
 **Результат выполнения:**  
