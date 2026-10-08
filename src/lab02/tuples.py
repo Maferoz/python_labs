@@ -1,26 +1,31 @@
 def format_record(rec: tuple[str,str,float]) -> str:
     fio, group, gpa = rec
-    group = group.strip()
-    if type(fio) != str or len(fio) == 0:
+    if type(fio) != str or len(fio.strip()) == 0:
+        raise ValueError("Неверное ФИО")
+    if len(fio.split()) <= 1:
         raise ValueError("Неверное ФИО")
     if type(group) != str or len(group.strip()) == 0:
         raise ValueError("Неверная Группа")
     if (type(gpa) != int and type(gpa) != float) or gpa < 0 or gpa > 5:
         raise ValueError("Неверный GPA")
-    new_fio = []
-    for i in fio.split(): #делаем список с красивым фио
-        new_fio.append(i[0].upper() + ".")
-    name = new_fio[0] #берем из него фамилию
+    # Удаляем лишние пробелы
+    fio = fio.strip()
+    group = group.strip()
+    # Сделаем fio приемлимым
+    new_fio = [] # список с ФИО, 1 заглавная, остальные маленькие, пробелы норм
+    for i in fio.split():
+        new_fio.append(i.capitalize())
+    name = new_fio[0] 
+    # Найдем инициаллы
     initials = ""
-    for i in new_fio[1:]: #берем из него инициалы без фамилии
-        for j in i:
-            if j.isupper():
-                initials = initials + j + "."
+    new_fio = new_fio[1:]
+    for i in new_fio:
+        initials += i[0] + "."
     if len(initials) > 4:
-        initials = initials[0:4]
+        initials = initials[:4]
     result = f"{name} {initials}, гр. {group}, GPA {gpa:.2f}"
     return result
-case1 = (" 1111 111  ", "      1    ", 5)
+case1 = (123, "1", 5)
 print(format_record(case1))
 
     
