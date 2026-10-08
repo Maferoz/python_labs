@@ -1,45 +1,41 @@
-def transpose(mat):
+def matrix_check(mat):
+    if mat == []:
+        return 
+    width = len(mat[0])
     for row in mat:
-        length = len(mat[0])
-        for col in row:
-            if len(row) != length:
-                raise ValueError("Рваная матрица")
+        if len(row) != width:
+            raise ValueError("Рваная матрица")
+
+def transpose(mat):
+    matrix_check(mat)
     if mat == []:
         return []
-    rows = len(mat) #кол-во строк в первой
-    cols = len(mat[0]) #кол-во столбцов в первой
+    rows = len(mat) #кол-во строк
+    cols = len(mat[0]) #кол-во столбцов
     new_mat = []
-    for row in range(cols): #1 -> 3
+    for row in range(cols): 
         new_row = []
-        for col in range(rows): #3 -> 1
-            new_row.append(mat[col][row])
+        for col in range(rows):
+            new_row.append(mat[col][row]) # поочередно добавляем значения col и row  для транспонации
         new_mat.append(new_row)
     return new_mat
 
 def row_sums(mat):
-    for row in mat:
-        length = len(mat[0])
-        for col in row:
-            if len(row) != length:
-                raise ValueError("Рваная матрица")
+    matrix_check(mat)
     new_mat = []
     for row in mat:
-        sum = 0
+        summ = 0
         for i in row:
-            sum += i
-        new_mat.append(sum)
+            summ += i
+        new_mat.append(summ)
     return new_mat
 
 def col_sums(mat):
-    for row in mat:
-        length = len(mat[0])
-        for col in row:
-            if len(row) != length:
-                raise ValueError("Рваная матрица")
+    matrix_check(mat)
     rows = len(mat)
     cols = len(mat[0])
+    new_mat = []
     for row in range(rows-1):
-        new_mat = []
         for col in range(cols):
             new_mat.append(mat[row][col] + mat[row+1][col])
     return new_mat
