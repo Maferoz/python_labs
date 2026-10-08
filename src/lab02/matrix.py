@@ -21,6 +21,8 @@ def transpose(mat):
     return new_mat
 
 def row_sums(mat):
+    if mat == []:
+        return []
     matrix_check(mat)
     new_mat = []
     for row in mat:
@@ -31,11 +33,17 @@ def row_sums(mat):
     return new_mat
 
 def col_sums(mat):
+    if mat == []:
+        return []
     matrix_check(mat)
     rows = len(mat)
     cols = len(mat[0])
-    new_mat = []
-    for row in range(rows-1):
-        for col in range(cols):
-            new_mat.append(mat[row][col] + mat[row+1][col])
-    return new_mat
+    result = []
+    for i in range(rows-1):
+        summ = 0
+        for j in range(cols-1):
+            summ = mat[rows][cols] + mat[rows+1][cols+1]
+        result.append(summ)
+    return result
+x = [[-1, 1 ],[10, -10]]
+print(x, col_sums(x))
