@@ -1,3 +1,4 @@
-x = "            "
-x = x.strip()
-print(len(x))
+fio= "Aaaa aAAAA aaaa aaaaa"
+fio = fio.strip()
+print(type(fio))
+
