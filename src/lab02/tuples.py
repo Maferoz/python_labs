@@ -1,4 +1,8 @@
 def format_record(rec: tuple[str,str,float]) -> str:
+    '''Возвращает форматированную запись о студенте
+        TypeError: Неверный тип данных на входе
+        ValueError: Верный тип данных, но не подходящий аргумент по условию
+    '''
     fio, group, gpa = rec
     if type(fio) != str or len(fio.strip()) == 0: # ФИО должно быть непустой строкой
         raise TypeError("Неверное ФИО")
@@ -27,7 +31,5 @@ def format_record(rec: tuple[str,str,float]) -> str:
     # Формулируем результат
     result = f"{name} {initials}, гр. {group}, GPA {gpa:.2f}"
     return result
-case1 = (" 1111 1111 1111", "1     1", 5)
-print(format_record(case1))
 
     

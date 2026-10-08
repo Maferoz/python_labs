@@ -7,6 +7,7 @@ def matrix_check(mat):
             raise ValueError("Рваная матрица")
 
 def transpose(mat):
+    #Меняет местами строки и стобцы
     matrix_check(mat)
     if mat == []:
         return []
@@ -21,6 +22,7 @@ def transpose(mat):
     return new_mat
 
 def row_sums(mat):
+    #Возвращет сумму элементов по каждой строке матрицы
     if mat == []:
         return []
     matrix_check(mat)
@@ -33,6 +35,7 @@ def row_sums(mat):
     return new_mat
 
 def col_sums(mat):
+    #Возвращает сумму элементов по каждому столбцу матрицы
     if mat == []:
         return []
     matrix_check(mat)
