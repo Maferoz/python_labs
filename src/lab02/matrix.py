@@ -42,9 +42,6 @@ def col_sums(mat):
     for i in range(cols):
         summ = 0
         for j in range(rows):
-            summ += mat[i][j]
+            summ += mat[j][i]
         result.append(summ)
     return result
-x = [[1, 2, 3], [4, 5, 6]]
-x2 = [[-1, 1], [10, -10]]
-print(x, col_sums(x))
