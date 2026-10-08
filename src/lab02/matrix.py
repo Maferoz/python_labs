@@ -39,11 +39,12 @@ def col_sums(mat):
     rows = len(mat)
     cols = len(mat[0])
     result = []
-    for i in range(rows-1):
+    for i in range(cols):
         summ = 0
-        for j in range(cols-1):
-            summ = mat[rows][cols] + mat[rows+1][cols+1]
+        for j in range(rows):
+            summ += mat[i][j]
         result.append(summ)
     return result
-x = [[-1, 1 ],[10, -10]]
+x = [[1, 2, 3], [4, 5, 6]]
+x2 = [[-1, 1], [10, -10]]
 print(x, col_sums(x))
