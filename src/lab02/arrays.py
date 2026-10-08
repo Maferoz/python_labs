@@ -26,7 +26,7 @@ def unique_sorted(nums: list[float | int]) -> list[float | int]:
 def flatten(mat: list[list | tuple]) -> list :
     '''Возвращает список из список/кортежей из списка'''
     res = []
-    for i in nums:
+    for i in mat:
         if type(i) != tuple and type(i) != list:
             raise TypeError()
         res.extend(i)
