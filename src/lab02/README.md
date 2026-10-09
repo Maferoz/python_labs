@@ -109,7 +109,7 @@
 > **Описание решения:** Создаем список, содержащий фамилию, имя, отчество. capitalize делает первую букву заглавной, остальные переводит в нижний регистр. Ищем первые буквы ФО по заглавности, добавляем в пустую строку для инициалов вместе с точкой.
 
 **Код программы:**  
-![alt text](![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex03-1code.png))
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex03-1code.png)
 
 
 
