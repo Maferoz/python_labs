@@ -8,7 +8,7 @@
 > **Описание решения:** Если x пустой, функция возвращает ValueError. min и max изначально приравнены первому числу для удобства. Простенький цикл for для перебора наибольшего и наименьшего.
 
 **Код программы:**  
-<img width="500" height="392" alt="image" src="https://github.com/user-attachments/assets/1d3b9f76-b097-4a42-9b98-11aef8a6a1f6" />
+https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex01-1code.png
 
 
 **Результат выполнения:**  
