@@ -8,7 +8,8 @@
 > **Описание решения:** Если x пустой, функция возвращает ValueError. min и max изначально приравнены первому числу для удобства. Простенький цикл for для перебора наибольшего и наименьшего.
 
 **Код программы:**  
-<img width="500" height="392" alt="image" src="https://github.com/user-attachments/assets/1d3b9f76-b097-4a42-9b98-11aef8a6a1f6" />
+<img width="2000" height="434" alt="image" src="https://github.com/user-attachments/assets/985921ca-7c3e-4b88-b8de-f8e806dc4504" />
+
 
 
 **Результат выполнения:**  
@@ -23,7 +24,8 @@
 
 
 **Код программы:**  
-<img width="1136" height="360" alt="image" src="https://github.com/user-attachments/assets/bc4dca9c-23fb-4278-b8b4-52bae4d11661" />
+<img width="1976" height="392" alt="image" src="https://github.com/user-attachments/assets/3da0dc92-8784-4189-8187-be0e99d1d449" />
+
 
 
 **Результат выполнения:**  
@@ -38,7 +40,8 @@
 > **Описание решения:** ValueError, если дан не список или кортеж. Функция extend добавляет все элементы матрицы в список res.
 
 **Код программы:**  
-<img width="1242" height="244" alt="image" src="https://github.com/user-attachments/assets/8efc6299-2401-468c-b9b4-dc4da7f2fd70" />
+<img width="1966" height="292" alt="image" src="https://github.com/user-attachments/assets/8677c366-bcbb-416e-90db-7c520bfd21b4" />
+
 
 
 **Результат выполнения:**  
