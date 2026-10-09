@@ -1,4 +1,5 @@
-def matrix_check(mat):
+def matrix_check(mat: list[list[float | int]]) -> list[list]:
+    # Проверяет рваная ли матрица
     if mat == []:
         return 
     width = len(mat[0])
@@ -6,7 +7,7 @@ def matrix_check(mat):
         if len(row) != width:
             raise ValueError("Рваная матрица")
 
-def transpose(mat):
+def transpose(mat: list[list[float | int]]) -> list[float]:
     #Меняет местами строки и стобцы
     matrix_check(mat)
     if mat == []:
@@ -21,7 +22,7 @@ def transpose(mat):
         new_mat.append(new_row)
     return new_mat
 
-def row_sums(mat):
+def row_sums(mat: list[list[float | int]]) -> list[float]:
     #Возвращет сумму элементов по каждой строке матрицы
     if mat == []:
         return []
