@@ -4,11 +4,11 @@
 ## Задание 1
 
 ---
-## unique_sorted
+## min_max
 > **Описание решения:** Если x пустой, функция возвращает ValueError. min и max изначально приравнены первому числу для удобства. Простенький цикл for для перебора наибольшего и наименьшего.
 
 **Код программы:**  
-<img width="2000" height="434" alt="image" src="https://github.com/user-attachments/assets/985921ca-7c3e-4b88-b8de-f8e806dc4504" />
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex01-1code.png)
 
 
 
@@ -54,11 +54,14 @@
 ##  Задание 2
 
 ---
+## функция matrix_check для проверки матриц на рваность:
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/image.png)
+---
 ## transpose
 > **Описание решения:** Меняем местами m и n для транспонирования, добавляем в новый список этот срез.
 
 **Код программы:**  
-<img width="1108" height="608" alt="image" src="https://github.com/user-attachments/assets/ecce80eb-25ad-48ae-8aab-47b931de86aa" />
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex02-1code.png)
 
 
 **Результат выполнения:**  
@@ -73,7 +76,7 @@
 > **Описание решения:** Проходим по каждой строке через цикл for, складываем все элементы каждого столбца, сумму элементов добавляем в новый список как строку.
 
 **Код программы:**  
-<img width="1112" height="474" alt="image" src="https://github.com/user-attachments/assets/50296bfb-8e0c-40dd-8dd2-296f2ff8f208" />
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex02-2code.png)
 
 
 
@@ -89,7 +92,7 @@
 > **Описание решения:** В цикле for складываются элемент столбца матрицы с другим на следующей строке. 
 
 **Код программы:**  
-<img width="1046" height="468" alt="image" src="https://github.com/user-attachments/assets/5cc0b685-8c54-4155-8fab-c3a52d7c9134" />
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex02-3code.png)
 
 
 
@@ -106,7 +109,7 @@
 > **Описание решения:** Создаем список, содержащий фамилию, имя, отчество. capitalize делает первую букву заглавной, остальные переводит в нижний регистр. Ищем первые буквы ФО по заглавности, добавляем в пустую строку для инициалов вместе с точкой.
 
 **Код программы:**  
-<img width="1116" height="866" alt="image" src="https://github.com/user-attachments/assets/be66570d-8322-4c7a-ac6e-ff0f597cff0c" />
+![alt text](https://github.com/Maferoz/python_labs/blob/main/images/lab02/ex03-1code.png)
 
 
 
