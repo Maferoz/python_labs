@@ -3,9 +3,9 @@ def format_record(rec: tuple[str,str,float]) -> str:
         TypeError: Неверный тип данных на входе
         ValueError: Верный тип данных, но не подходящий аргумент по условию
     '''
-    fio, group, gpa = rec
     if len(rec) != 3:
         raise TypeError("Неверный ввод")
+    fio, group, gpa = rec
     if type(fio) != str or len(fio.strip()) == 0: # ФИО должно быть непустой строкой
         raise TypeError("Неверное ФИО")
     if len(fio.split()) <= 1: # ФИО из 1-го слова тоже не подойдет
@@ -33,5 +33,4 @@ def format_record(rec: tuple[str,str,float]) -> str:
     # Формулируем результат
     result = f"{name} {initials}, гр. {group}, GPA {gpa:.2f}"
     return result
-
     
