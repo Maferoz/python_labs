@@ -35,7 +35,7 @@ def row_sums(mat: list[list[float | int]]) -> list[float]:
         new_mat.append(summ)
     return new_mat
 
-def col_sums(mat):
+def col_sums(mat: list[list[float | int]]) -> list[float]:
     #Возвращает сумму элементов по каждому столбцу матрицы
     if mat == []:
         return []
