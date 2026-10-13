@@ -1,5 +1,4 @@
 def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
-    text1, casefold, yo2e = text
     text1 = " ".join(text1.split())
     if casefold:
         text1 = text1.casefold()
@@ -45,7 +44,7 @@ def count_freq(tokens: list[str]) -> dict[str, int]:
     return result
 
 def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
-    dic, n = freq
+    dic = freq
     new_a = {}
     cnt = 0
     mx = max(dic.values())
@@ -72,6 +71,7 @@ x2 = ["bb","aa","bb","aa","cc"]
 #print(count_freq(x2))
 x1 = {"a":7,"b":6,"c":1},2
 x2 = {"aa":2,"bb":2, "dd": 2,"cc":1}, 1
+print(top_n({"a":7,"b":6,"c":1},2))
 '''
 dic = {"aa":2,"bb":2,"cc":1}
 n = 1
