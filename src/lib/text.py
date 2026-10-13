@@ -1,3 +1,4 @@
+
 def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
     text = " ".join(text.split())
     if casefold:
@@ -7,33 +8,31 @@ def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
     if yo2e:
         text = text.replace("ё","е")
     return text
-x1 = "ПрИвЕт\nМИр\t", True, True
-x2 = "ёжик, Ёлка", False, True
-x3 = "Hello\r\nWorld",True,True
-x4 = "  двойные   пробелы  "
-#print(normalize("ПрИвЕт\nМИр\t"))
-# text.isalnum()
+
+
 def tokenize(text: str)-> list[str]:
-    non_alnum = []
-    cnt = 0
-    for i in text:
-        if not i.isalnum() and i != "-":
-            non_alnum.append(i)
-        if i == '-':
-            if cnt > 0 and cnt != len(text) - 1: # Защита если - в начале или конце
-                if text[cnt-1].isalnum() == False or text[cnt+1].isalnum() == False:
-                    non_alnum.append("-")
-        cnt += 1
-    for i in non_alnum:
-        text = " ".join(text.split(i))
-    text = text.split()
-    return text
-x1 = "привет мир"
-x2 = "hello,world!!!"
-x3 = "по-настоящему круто"
-x4 = "2025 год"
-x5 = "emoji 😀 не слово"
-#print(tokenize("emoji- 😀 не слово-"))
+    changed_text = "" # В нем все плохие символы меняем на пробел кроме - и _
+    result_text = "" # В нем заменяем неподходящие - на пробел, потом обработка сплитом и конец
+    for symbol in text:
+        if symbol.isalnum() == False and symbol != "-" and symbol != "_": #Заменяем все плохие символы на пробел для последующего сплита
+            changed_text += " "
+        else:
+            changed_text += symbol
+    for index in range(len(changed_text)):
+        symbol = changed_text[index]
+        if symbol == "-":
+            if index > 0 and index < len(changed_text) - 1:
+                if changed_text[index-1] not in (" ", "-") and changed_text[index+1] not in (" ", "-"):
+                    result_text += symbol
+                else:
+                    result_text += " "
+            else:
+                result_text += " "
+        else:
+            result_text += symbol
+    result_text = result_text.split()
+    return result_text
+
 def count_freq(tokens: list[str]) -> dict[str, int]:
     result = {}
     x = sorted(set(tokens))
@@ -44,9 +43,17 @@ def count_freq(tokens: list[str]) -> dict[str, int]:
         result[i] = result[i] + 1
     return result
 
+
 def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
     items = list(freq.items())
     result = []
+    maximum = max(freq.values())
+    cnt = 0
+    for i in freq.values():
+        if i == maximum:
+            cnt += 1
+    if cnt > 1:
+        n = cnt
     while len(result) < n and len(items) > 0:
         best = items[0]
         for item in items:
@@ -58,23 +65,5 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
         items.remove(best)
     return result
 
+
     
-x1 = ["a","b","a","c","b","a"]
-x2 = ["bb","aa","bb","aa","cc"]
-#print(count_freq(x2))
-x1 = {"a":7,"b":6,"c":1},2
-x2 = {"aa":2,"bb":2, "dd": 2,"cc":1}, 1
-#print(top_n({"a":7,"b":6,"c":1},2))
-'''
-dic = {"aa":2,"bb":2,"cc":1}
-n = 1
-cnt = 0
-mx = max(dic.values())
-for i in dic.values():
-        print(i,mx)
-        if i == mx:
-            cnt += 1
-if cnt > 1:
-    n = cnt
-print(n)
-'''
