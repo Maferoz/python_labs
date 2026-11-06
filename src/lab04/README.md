@@ -1,7 +1,7 @@
 
 ## Задание A — модуль src/lab04/io_txt_csv.py
 
-```python
+```
 import csv
 from pathlib import Path
 
@@ -40,7 +40,7 @@ def write_csv(rows: list[tuple | list], path: str | Path,
 ```
 ## Задание B — скрипт src/lab04/text_report.py
 
-```python
+```
 import pathlib
 import sys
 import csv
