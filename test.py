@@ -6,4 +6,3 @@ for i in fio.split():
 name = new_fio[0] 
     # Найдем инициаллы
 print(new_fio)
-

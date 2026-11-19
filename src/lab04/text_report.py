@@ -25,7 +25,7 @@ def text_report(path: str | pathlib.Path, encoding: str = "utf-8"):
     freq = count_freq(tokens)
     top = top_n(freq)
     sorted_top = top
-    
+
     write_csv(
     rows= sorted_top, 
     path="data/lab04/report.csv", 
@@ -36,7 +36,6 @@ def text_report(path: str | pathlib.Path, encoding: str = "utf-8"):
         w.writerow([f"Кол-во слов: {len(tokens)}"])
         w.writerow([f"Уникальных слов: {len(freq)}"])
         w.writerow(["Топ-5:"])
-         # Открываем второй файл для чтения
         with open('data/lab04/report.csv', mode='r', newline='', encoding='utf-8') as f2:
             reader = csv.reader(f2)
             for i in reader:
